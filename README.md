@@ -12,12 +12,22 @@ Just an example of an automatic upvotes, using the `GET & POST` method for `coin
 
 ## Notice
 
-Changes line of file votes_managements/target.py for target to get upvotes
+- Changes line URL of file `votes_managements/target.py` for target to get upvotes
 
 ```python
-url_coindizzy_vote = "https://api.coindizzy.com/data/vote.php?id=52204&type=token"
-url_coindizzy_watchlist = "https://api.coindizzy.com/data/watchlist_count.php?id=52204"
+URL_COINDIZZY_VOTE = "https://api.coindizzy.com/data/vote.php?id=52204&type=token"
+URL_COINDIZZY_WATCHLIST = "https://api.coindizzy.com/data/watchlist_count.php?id=52204"
 ```
+
+- Change it in the `votes_managements/api_proxy.py` section if you really have a better proxy api, because the proxy api that is used now is a free proxy api which has very many inactive proxies
+
+```python
+proxy_urls = [
+        "https://openproxylist.xyz/http.txt",
+        "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all",
+    ]
+```
+
 
 
 
