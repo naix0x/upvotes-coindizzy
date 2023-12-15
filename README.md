@@ -47,12 +47,12 @@ proxy_urls = [
 
 To get the URL on Coindizzy, you have to use Inspect first, `vote first` on the target website with `Inspect`. below to inspect using Google Chrome on Android
 
-- lunch Chrome on your Android device.
-- tap the three dots from the top right corner.
-- tap the Star (Bookmark) icon twice.
-- u will see the Edit bookmark screen.
-- give a suitable Name to the bookmark, say “Inspect”
-- in the URL field, enter the following code: 
+- Launch Chrome on your Android device.
+- Tap the three dots from the top right corner.
+- Tap the Star (Bookmark) icon twice.
+- U will see the Edit bookmark screen.
+- Give a suitable Name to the bookmark, say “Inspect”
+- In the URL field, enter the following code: 
 
 ```javascript
 javascript:(function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();
