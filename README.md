@@ -58,4 +58,4 @@ To get the URL on Coindizzy, you have to use Inspect first, `vote first` on the 
 javascript:(function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();
 ```
 
-
+If u are still confused about how to inspect on Android or PC/laptop, you can look for a tutorial on YouTube
