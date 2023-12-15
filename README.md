@@ -59,3 +59,7 @@ javascript:(function () { var script = document.createElement('script'); script.
 ```
 
 If u are still confused about how to inspect on Android or PC/laptop, u can look for a tutorial on YouTube
+
+## License
+
+This project is licensed under the [GPL 3.0 License](https://github.com/naix0x/upvotes-coindizzy/blob/main/LICENSE).
