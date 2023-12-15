@@ -2,10 +2,9 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/naix0x/upvotes-coindizzy)
 ![GitHub issues](https://img.shields.io/github/issues-raw/naix0x/upvotes-coindizzy)
 
-# <h1 align="center">UP VOTES COINDIZZY.COM</h1>
+# UP VOTES COINDIZZY.COM
 
-<p align="center">
-    <img width="300" src="screenshot/console_startupvotes.png" alt="consoleupvotes">
+<img width="300" src="screenshot/console_startupvotes.png" alt="consoleupvotes">
 </p>
 
 Just an example of an automatic upvotes, using the `GET & POST` method for `coindizzy.com`, cuz this website does not use captcha, and only a simple POST API for used get votes.  Actually many ways, such as using the puppeteer, selenium, openbullet/silverbullet libraries to do votes that contain buttonid & bypass captcha. but for this one it is only for `educational purposes` & only uses simple libraries that we often use.
@@ -33,14 +32,12 @@ proxy_urls = [
 
 - Before upvotes
 
-<p align="center">
-    <img width="250" src="screenshot/before_upvotes.png" alt="consoleupvotes">
+<img width="250" src="screenshot/before_upvotes.png" alt="consoleupvotes">
 </p>
 
 - After upvotes
 
-<p align="center">
-    <img width="250" src="screenshot/after_upvotes.png" alt="consoleupvotes">
+<img width="250" src="screenshot/after_upvotes.png" alt="consoleupvotes">
 </p>
 
 ## Get for URL API
