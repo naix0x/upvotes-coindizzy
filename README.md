@@ -45,7 +45,10 @@ proxy_urls = [
 
 ## Get for URL API
 
-To get the URL on Coindizzy, you have to use Inspect first, `vote first` on the target website with `Inspect`. below to inspect using Google Chrome on Android
+To get the URL on coindizzy, you have to use `Inspect` first, `vote first` on the target website with `Inspect`. below to inspect using google chrome on android
+
+<img width="300" src="screenshot/get_url_api.png" alt="apiurl">
+</p>
 
 - Launch chrome on your android device.
 - Tap the three dots from the top right corner.
