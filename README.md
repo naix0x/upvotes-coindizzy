@@ -10,6 +10,14 @@
 
 Just an example of an automatic upvotes, using the `GET & POST` method for `coindizzy.com`, cuz this website does not use captcha, and only a simple POST API for used get votes.  Actually many ways, such as using the puppeteer, selenium, openbullet/silverbullet libraries to do votes that contain buttonid and captcha. but for this one it is only for `educational purposes` & only uses simple libraries that we often use.
 
+## Notice
+
+Changes line of file votes_managements/target.py for target to get upvotes
+
+```python
+url_coindizzy_vote = "https://api.coindizzy.com/data/vote.php?id=52204&type=token"
+url_coindizzy_watchlist = "https://api.coindizzy.com/data/watchlist_count.php?id=52204"
+```
 
 
 
