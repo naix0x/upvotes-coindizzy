@@ -29,13 +29,15 @@ proxy_urls = [
     ]
 ```
 
-#### - Before upvotes
+## Screen made votes
+
+- Before upvotes
 
 <p align="center">
     <img width="250" src="screenshot/before_upvotes.png" alt="consoleupvotes">
 </p>
 
-#### - After upvotes
+- After upvotes
 
 <p align="center">
     <img width="250" src="screenshot/after_upvotes.png" alt="consoleupvotes">
